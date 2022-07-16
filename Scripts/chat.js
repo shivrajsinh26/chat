@@ -549,7 +549,7 @@ function onFirebaseStateChanged() {
 
 function onStateChanged(user) {
     if (user) {
-        alert(firebase.auth().currentUser.email + '\n' + firebase.auth().currentUser.displayName);
+        //alert(firebase.auth().currentUser.email + '\n' + firebase.auth().currentUser.displayName);
 
         var userProfile = { email: '', name: '', photoURL: '' };
         userProfile.email = firebase.auth().currentUser.email;
